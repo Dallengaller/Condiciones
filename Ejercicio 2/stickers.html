@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preload" href="./css/style.css" as="style">
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <h1> Elige hasta 10 stickers</h1>
+
+        <div class="caja_stickers">
+            <div class="stickers">
+                <img src="./img/img1.png" alt="img_1">
+                <input type="number" id="sticker1" placeholder="Seleccione cantidad" min="0" max="10">
+            </div>
+            <div class="stickers">
+                <img src="./img/img2.png" alt="img_2">
+                <input type="number" id="sticker2" placeholder="Seleccione cantidad" min="0" max="10">
+            </div>
+            <div class="stickers">
+                <img src="./img/img3.png" alt="img_3">
+                <input type="number" id="sticker3" placeholder="Seleccione cantidad" min="0" max="10">
+            </div>
+
+        </div>
+        <div class="verificacion">
+            <button onclick="verificar()">Verificar</button>
+            <p id="pedido"></p>
+        </div>
+    </div>
+
+    <script src="./stickers.js"></script>
+</body>
+
+</html>
