@@ -28,3 +28,8 @@ h1 {
 button {
     width: 200px;
 }
+.caja_stickers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
